@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+ <link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"  />
+	<link rel="stylesheet" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	
+	
+	
+</head>
+<body>
+	
+	
+
+  <nav class="navbar navclo mb0">
+  <div class="container-fluid">
+	  
+	<div class="navbar-header" style="border-bottom: 2px solid #699e00;     ">
+		 
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <span class="logo imglogo" href=""><img class="imglogo" src="img/logo.png" style=""></span> <a href="news.html"> <img href="" class="news" src="img/news.png" width="10%"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar" style="    border-bottom: 2px solid #6c9e00;">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html"><i class="fa-solid fa-house"></i>  ஹோம்</a></li>
+		  <li class="active"><a href="service.html"><i class="fa-solid fa-crosshairs"></i>  சேவை</a></li>
+		  <li class="active"><a href="member.html"><i class="fa-solid fa-users"></i>  உறுப்பினர்கள்</a></li>
+		  <li class="active"><a href="contact.html"><i class="fa-solid fa-address-book"></i>  தொடர்புக்கு</a></li>
+    
+      </ul>
+    
+    </div>
+  </div>
+</nav>
+	
+	
+	
+
+
+  <marquee class = "marquee" behavior="scroll" style=";
+    background-color: #d6ffdb;
+    padding: 5px;" direction="left">மே 5-ல் 42-வது வணிகர் தினம் 2-வது மாநில மாநாடு தூத்துக்குடியில் மிக பிரமாண்டமாக வணிகர் நலப் பாதுகாப்பு மாநில மாநாடாக நடைபெறுகிறது. தமிழக முழுவதும் இருந்து மாநாட்டிற்கு வருகை தரும் அனைத்து வியாபாரிகள் அனைவரையும் வருக! வருக! என வரவேற்கிறோம்...! 
+           </marquee>
+
+	
+	
+	
+	
+
+	
+	
+		
+	
+	
+	
+	
+	
+	
+	<div class="container">
+		  <div class="section-title text-center">
+                <h1 class="display-5 mb-5 tit line-hei">வணிக செய்திகள் </h1>
+            </div>
+  
+  <div class="row ">
+    <div class="col-md-4 papernews">
+		<div class="newpad">
+		<img id="myImg" src="news/28-2-2025.jpg" alt="Snow" style="width:100%;">
+           <div id="myModal" class="modal">
+              <span class="close">&times;</span>
+            <img class="modal-content" id="img01">
+           <div id="caption"></div>
+     </div>
+	</div>
+   </div>
+	  
+	  
+	  
+	  <div class="col-md-4 papernews">
+		<div class="newpad">
+		<img id="myImg2" src="news/15-3-2025.jpg" alt="Snow" style="width:100%;">
+           <div id="myModal2" class="modal">
+              <span class="close">&times;</span>
+            <img class="modal-content" id="img02">
+           <div id="caption2"></div>
+     </div>
+	</div>
+   </div>
+	  
+	  
+	
+	  
+	  
+</div>
+	
+</div>	
+
+
+  <!-- Footer -->
+	
+	
+<div class="footer">
+	
+	<p class="ft"> &copy; <span class="border-bottom" >Tamilnadu vanigar sangam</span>, All Right Reserved.<br>எங்களை தொடர்பு கொள்ள<br>தலைமை அலுவலகம்</br>51/3 கல்யாணசுந்தர விநாயகர் கோவில் தெரு, திருச்செந்தூர்</p>
+	
+	
+	
+	
+	
+	</div>	
+	
+	
+ 
+  <!-- Footer -->
+
+
+<!-- End of .container -->
+			 
+	<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+
+// Get the modal-2
+
+</script>
+<script>
+// Get the modal
+var modal = document.getElementById("myModal2");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg2");
+var modalImg = document.getElementById("img02");
+var captionText = document.getElementById("caption2");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[1];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+
+// Get the modal-2
+
+
+
+
+</script>		
+
+</body>
+</html>

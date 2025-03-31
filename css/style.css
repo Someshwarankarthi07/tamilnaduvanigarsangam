@@ -1,0 +1,170 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+.imglogo{width: 65%;
+    margin-top: 15px;}
+.logo{width: 76%;margin-top: 10px;}
+.icon-bar{    background-color: #2a5e00;}
+.mb0{margin-bottom: 0px}
+	.tit{    font-size: 35px;
+    font-weight: 900;  color: #127a00;}
+.para{    font-size: 15px;
+    font-weight: 600;
+    text-align: justify;}
+.oru{color: #0b4c00;
+    font-weight: 900;}
+.t50{font-size: 40px;}
+.t25{font-size: 18px;}
+.flag{width: 70%;
+ 
+    margin: 0 auto;}
+.service-item{    padding-bottom: 20px;}
+
+.txa{font-size: 15px;
+    font-weight: 800;color: #417c00;}
+
+.th4 {font-size: 18px;
+    font-weight: 800;
+    color: #417c00;}
+.line-hei{line-height: normal}
+.name{    font-size: 24px; text-align: center;
+    font-weight: 900; color: #127a00;}	
+.pos{    font-size: 18px;text-align: center;
+    font-weight: 900; }	
+.marquee{    font-size: 16px;     background-color: #d6ffdb;
+    padding: 5px;
+
+    font-weight: 600;color: #127a00;}
+.footer{background-color: #083800;
+    font-size: 14px;
+	padding: 20px;}
+.ft{font-size: 16px;
+    font-weight: 800;
+    color: #fff;
+    text-align: center;}
+.navbar-toggle {    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-right: 0px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid #0f460100;}
+.nav li a{    font-size: 15px;
+    font-weight: 800;
+    color: #239945;
+    padding: 5px 10px;}
+.top30{margin-top: 30px;}
+.news{    margin-left: 40px;
+    margin-top: 5px;}
+.custom{    border: 1px solid #083800;
+    background-color: #ddffd7;
+    font-weight: 900;margin-bottom: 20px;}
+
+.papernews{    max-height: 250px;
+    overflow: hidden;     margin-bottom: 30px;}
+.newpad{ padding: 10px}
+.mf{    margin-top: 10px;}
+
+
+
+
+
+
+
+
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
